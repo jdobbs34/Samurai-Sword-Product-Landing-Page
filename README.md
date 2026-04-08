@@ -1,3 +1,3 @@
-# Samura Sword Product Landing Page
+# Samurai Sword Product Landing Page
 
-https://samura-sword-product-landing-page.netlify.app/
+https://samurai-sword-product-landing-page.netlify.app/

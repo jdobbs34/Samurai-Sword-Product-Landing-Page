@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samurai Swords</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+
+      <header id="header" class="header">
+        <div class="header-title">
+          <h1 class="title">Samurai Swords</h1>
+          
+          <img
+          src="images/katana.png"
+          alt="Samurai Swords Logo"
+          id="header-img"
+          class="header-img"
+          />
+        </div>
+        <nav id="nav-bar" class="nav-bar">
+          <ul class="nav-bar">
+            <li class="nav-link"><a href="#product">About</a></li>
+            <li class="nav-link"><a href="#video">Products</a></li>
+            <li class="nav-link"><a href="#tanto">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div class="container">
+        <form
+        class="form"
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="POST"
+        >
+        <div class="sign-up">
+          <h2>Get Started with Samurai Swords</h2>
+          
+          <input
+          type="email"
+          class="email"
+          id="email"
+          name="email"
+          atr="email"
+          placeholder="Enter your email address"
+          required
+          />
+          
+          <input
+          id="submit"
+          class="submit"
+          type="submit"
+          class="btn"
+          value="GET STARTED"
+          />
+        </div>
+      </form>
+      <div class="product-details">
+        <div id="product" class="product-premium">
+          <img
+          src="/images/swords.png"
+          width="100"
+          height="100"
+          alt="2 Katanas in an X"
+          id="swords"
+          class="swords"
+          />
+          
+          <h2>Premium Materials</h2>
+          <p>Crafted with some of the finest metals on planet earth.</p>
+        </div>
+        <div class="product-shipping">
+          <img
+          src="/images/shipping.png"
+          width="100"
+          height="100"
+          alt="shipping truck with japan flag"
+          id="shipping"
+          class="shipping"
+          />
+          
+          <h2>Fast Shipping</h2>
+          <p>
+            Will receive immediately once product is finished. Immediate return
+            if not satisfied with product as well as a 2 year warranty.
+          </p>
+        </div>
+        <div class="product-seal">
+          <img
+          src="/images/Seal.png"
+          width="100"
+            height="100"
+            alt="round seal for assurrance"
+            id="seal"
+            class="seal"
+            />
+            
+            <h2>Quality Assurance</h2>
+            <p>We will ensure that product is at its finest before shipping.</p>
+          </div>
+        </div>
+        
+        <video  id="video" controls>
+          <source src="Samurai.mp4" type="video/mp4" />
+        </video>
+        
+        <div class="product-select">
+          <div id="tanto" class="product tanto">
+            <h3>Tanto</h3>
+            <h4>$200</h4>
+            <p class="description">
+              The Tanto is a traditional Japanese dagger that was used by the
+              samurai class. It is characterized by its curved blade and is often
+              used for close combat.
+            </p>
+            <input id="select-tanto" type="submit" class="btn" value="SELECT" />
+          </div>
+          
+          <div class="product wakizashi">
+            <h3>Wakizashi</h3>
+            <h4>$300</h4>
+          <p class="description">
+            The Wakizashi is a short sword that is worn together with the Katana
+            by the samurai. It is used for close-quarters combat and is often
+            used as a backup weapon.
+          </p>
+          <input
+            id="select-wakizashi"
+            type="submit"
+            class="btn"
+            value="SELECT"
+          />
+        </div>
+        
+        <div class="product katana">
+          <h3>Katana</h3>
+          <h4>$400</h4>
+          <p class="description">
+            The Katana is a long, curved sword that is known for its sharpness
+            and cutting ability. It is the primary weapon of the samurai and is
+            used for both slashing and thrusting attacks.
+          </p>
+          
+          <input id="select-katana" type="submit" class="btn" value="SELECT" />
+        </div>
+      </div>
+    </div>
+    
+    
+    <footer>
+      <div id="footer-nav">
+        <nav class="nav-link"><a href="#Privacy">Privacy</a></nav>
+        <nav class="nav-link"><a href="#Terms">Terms</a></nav>
+        <nav class="nav-link"><a href="#Contact">Contact</a></nav>
+      </div>
+
+      <p class="copyright">Copyright 2016, Samurai Swords</p>
+    </footer>
+  </body>
+</html>
